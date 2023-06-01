@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Animasi Anak</title>
+  <style>
+    @keyframes color-change {
+      0% { color: red; }
+      25% { color: orange; }
+      50% { color: yellow; }
+      75% { color: green; }
+      100% { color: blue; }
+    }
+ @keyframes scale {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    
+    .letter {
+      font-size: 48px;
+      font-weight: bold;
+      animation-name: color-change;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+.number {
+      font-size: 48px;
+      font-weight: bold;
+      animation-name: scale;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+    
+     @keyframes move {
+      0% { top: 0; left: 0; }
+      50% { top: 200px; left: 200px; }
+      100% { top: 0; left: 0; }
+    }
+    
+    /* Animasi 1 */
+    .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: red;
+      position: relative;
+      animation-name: move;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 2 */
+    .square {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      position: relative;
+      animation-name: move;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 3 */
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid blue;
+      position: relative;
+      animation-name: move;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 4 */
+    .rectangle {
+      width: 150px;
+      height: 75px;
+      background-color: yellow;
+      position: relative;
+      animation-name: move;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 5 */
+    .heart {
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+      position: relative;
+      animation-name: move;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 6 */
+    .star {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid purple;
+      position: relative;
+      animation-name: move;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 7 */
+    .oval {
+      width: 150px;
+      height: 75px;
+      border-radius: 50%;
+      background-color: orange;
+      position: relative;
+      animation-name: move;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 8 */
+    .diamond {
+      width: 100px;
+      height: 100px;
+      transform: rotate(45deg);
+      background-color: gray;
+      position: relative;
+      animation-name: move;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 9 */
+    .hexagon {
+      width: 100px;
+      height: 55px;
+      background-color: brown;
+      position: relative;
+      animation-name: move;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    /* Animasi 10 */
+    .octagon {
+      width: 100px;
+      height: 100px;
+      background-color: cyan;
+      position: relative;
+      animation-name: move;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+ body {
+      background-color: #fff;
+      background-image: url('C:\Users\fahiyang\Desktop\konten\2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      animation-name: background-change;
+      animation-duration: 10s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes background-change {
+      0% { background-image: url('C:/Users/fahiyang/Desktop/konten/1.jpg'); }
+      25% { background-image: url('C:\Users\fahiyang\Desktop\konten\2.jpg'); }
+      50% { background-image: url('C:/Users/fahiyang/Desktop/konten/3.jpg'); }
+      75% { background-image: url('C:/Users/fahiyang/Desktop/konten/4.jpg'); }
+      100% { background-image: url('C:/Users/fahiyang/Desktop/konten/5.jpg'); }
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Selamat Datang di Website Animasi Anak</h1> 
+  
+  <!-- Animasi huruf A -->
+  <span class="letter">A</span>
+  
+  <!-- Animasi huruf B -->
+  <span class="letter">B</span>
+  
+  <!-- Animasi huruf C -->
+  <span class="letter">C</span>
+  
+  <!-- Animasi huruf D -->
+  <span class="letter">D</span>
+  
+  <!-- Animasi huruf E -->
+  <span class="letter">E</span>
+  
+  <!-- Animasi huruf F -->
+  <span class="letter">F</span>
+  
+  <!-- Animasi huruf G -->
+  <span class="letter">G</span>
+  
+  <!-- Animasi huruf H -->
+  <span class="letter">H</span>
+  
+  <!-- Animasi huruf I -->
+  <span class="letter">I</span>
+  
+  <!-- Animasi huruf J -->
+  <span class="letter">J</span>
+  
+  <!-- Animasi huruf K -->
+  <span class="letter">K</span>
+  
+  <!-- Animasi huruf L -->
+  <span class="letter">L</span>
+  
+  <!-- Animasi huruf M -->
+  <span class="letter">M</span>
+  
+  <!-- Animasi huruf N -->
+  <span class="letter">N</span>
+  
+  <!-- Animasi huruf O -->
+  <span class="letter">O</span>
+  
+  <!-- Animasi huruf P -->
+  <span class="letter">P</span>
+  
+  <!-- Animasi huruf Q -->
+  <span class="letter">Q</span>
+  
+  <!-- Animasi huruf R -->
+  <span class="letter">R</span>
+  
+  <!-- Animasi huruf S -->
+  <span class="letter">S</span>
+  
+  <!-- Animasi huruf T -->
+  <span class="letter">T</span>
+  
+  <!-- Animasi huruf U -->
+  <span class="letter">U</span>
+  
+  <!-- Animasi huruf V -->
+  <span class="letter">V</span>
+  
+  <!-- Animasi huruf W -->
+  <span class="letter">W</span>
+  
+  <!-- Animasi huruf X -->
+  <span class="letter">X</span>
+  
+  <!-- Animasi huruf Y -->
+  <span class="letter">Y</span>
+  
+  <!-- Animasi huruf Z -->
+  <span class="letter">Z</span>
+  <!-- Animasi angka 1 sampai 10 -->
+  <div class="number">1</div><div class="shape circle"></div>
+  <div class="number">2</div> <div class="shape square"></div>
+  <div class="number">3</div><div class="shape triangle"></div>
+  <div class="number">4</div><div class="shape heart"></div>
+  <div class="number">5</div><div class="shape star"></div>
+  <div class="number">6</div><div class="shape oval"></div>
+  <div class="number">7</div>
+  <div class="number">8</div>
+  <div class="number">9</div>
+  <div class="number">10</div>
+
+  
+  
+  </center>
+</body>
+</html>
